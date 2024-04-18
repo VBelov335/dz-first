@@ -7,5 +7,5 @@ const addressLat = 0;
 const addressLong = 3;
 
 
-console.log((positionLong - positionLat)**2 + (addressLat - addressLong)**2)
-console.log(Math.sqrt(25))
+const result = (positionLong - positionLat)**2 + (addressLong - addressLat)**2
+console.log(result**0.5)
